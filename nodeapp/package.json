@@ -1,0 +1,23 @@
+{
+  "name": "node-oracle-db-app",
+  "version": "1.0.0",
+  "description": "A node express app with node-oracledb",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Reinke",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.1",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "jsonwebtoken": "^7.4.2",
+    "mocha": "^3.5.0",
+    "morgan": "^1.8.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
